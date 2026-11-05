@@ -1,44 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jonatan's Portfolio</title>
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatan's Portfolio</title>
 
-header {
-background: #172554;
-color: white;
-padding: 40px 20px;
-}
-section {
-background: white;
-max-width: 650px;
-margin: 25px auto;
-padding: 25px;
-border-radius: 12px;
-}
-h2 { color: #2563eb; }
-</style>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            color: #222;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background: white;
+            padding: 18px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #2563eb;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #2563eb;
+        }
+
+        .card {
+            background: #172554;
+            color: white;
+            padding: 18px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        .card a {
+            color: #93c5fd;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            padding: 25px;
+        }
+
+    </style>
 </head>
+
 <body>
+
 <header>
-<h1>Hi, I'm Jonatan!</h1>
-<p>Welcome to my Portfolio</p>
-<p>Student | Future Web Developer</p>
+    <h1>Hi, I'm Jonatan!</h1>
+    <p>Welcome to My Portfolio</p>
+    <p>Student | Future Web Developer</p>
 </header>
-<section>
-<h2>About Me</h2>
-<p>My name is Jonatan. I am learning HTML and CSS.</p>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#goals">My Goals</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Jonatan Perez Mendez.</p>
+    <p>I am a student learning HTML, CSS, Python, and web development.</p>
+    <p>I enjoy technology, computers, and learning new skills.</p>
 </section>
-<section>
-<h2>My Skills</h2>
-<p>HTML, CSS, Problem Solving, and Creativity.</p>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>CSS Box Model</h3>
+        <p>Learn about margins, borders, padding, and content.</p>
+        <a href="CSSboxModel.html">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>HTML Tags</h3>
+        <p>Learn about different HTML tags and how they work.</p>
+        <a href="htmltags.html">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Python Types and Variables</h3>
+        <p>Examples of Python data types and variables.</p>
+        <a href="python.html">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>SDLC</h3>
+        <p>Learn about the Software Development Life Cycle.</p>
+        <a href="SDLC.html">View Project</a>
+    </div>
+
 </section>
-<section>
-<h2>My Goals</h2>
-<p>I want to improve my coding skills and create amazing websites.</p>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <p>HTML - Building web pages</p>
+    <p>CSS - Designing websites</p>
+    <p>Python - Learning programming</p>
+    <p>Problem Solving - Finding solutions</p>
 </section>
+
+<section id="goals">
+    <h2>My Goals</h2>
+    <p>My goal is to become better at coding, learn new technologies, and create professional websites.</p>
+    <p>I want to continue improving my skills and finish my Capstone project.</p>
+</section>
+
+<footer>
+    <p>Created by Jonatan Perez Mendez</p>
+    <p>My Capstone Portfolio 2026-2027</p>
+</footer>
+
 </body>
 </html>
-
